@@ -6,8 +6,23 @@ body{
 }
 
 h1{
-    margin-left: 440px;
+    margin-left: 400px;
     font-size: 70px;
+    color: red;
+    animation: titlecolor 5s linear infinite;
+}
+
+@keyframes titlecolor {
+    0%  {color:red;}
+    15%  {color:orange;}
+    30%  {color:yellow;}
+    45%  {color:green;}
+    60%  {color:blue;}
+    75%  {color:indigo;}
+    90%  {color: violet;}
+    100%  {color:red;}
+
+    
 }
 
 
@@ -23,14 +38,14 @@ h1{
   }
   
   @keyframes circle1-ani {
-    0%   {background-color:red; left: 0px; bottom: 0px;}
+    0%   {background-color:red; left: 0px;top: 350px;}
   15%  {background-color:orange;}
   30% {background-color:yellow;}
-  45%   {background-color:green;}
+  45%   {background-color:green; top: 600px;}
   60%  {background-color:blue;}
   75% {background-color:indigo;}
   90% {background-color:violet;}
-  100%   {background-color:red; left: 1200px; bottom: 100px }  
+  100%   {background-color:red; left: 1200px; top: 350px;}  
   }
 
 
@@ -46,14 +61,14 @@ h1{
   }
   
   @keyframes circle2-ani {
-    0%   {background-color:violet; right: 0px;}
+    0%   {background-color:violet; right: 0px; top: 350px;}
   15%  {background-color:indigo;}
   30% {background-color:blue;}
-  45%   {background-color:green;}
+  45%   {background-color:green; top: 150px;}
   60%  {background-color:yellow;}
   75% {background-color:orange;}
   90% {background-color:red;}
-  100%   {background-color:violet; right: 1200px;}  
+  100%   {background-color:violet; right: 1200px; top: 350px;}  
   
   }
 
