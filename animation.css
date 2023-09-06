@@ -1,0 +1,76 @@
+body{
+    background-image: url("pingpong2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1450px;
+}
+
+h1{
+    margin-left: 440px;
+    font-size: 70px;
+}
+
+
+.circle1 {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius:250px;
+    background-color: red;
+    animation: circle1-ani 3s linear infinite;
+  }
+  
+  @keyframes circle1-ani {
+    0%   {background-color:red; left: 0px; bottom: 0px;}
+  15%  {background-color:orange;}
+  30% {background-color:yellow;}
+  45%   {background-color:green;}
+  60%  {background-color:blue;}
+  75% {background-color:indigo;}
+  90% {background-color:violet;}
+  100%   {background-color:red; left: 1200px; bottom: 100px }  
+  }
+
+
+  .circle2 {
+    position: absolute;
+    top: 350px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius:250px;
+    background-color: red;
+    animation: circle2-ani 3s linear infinite;
+  }
+  
+  @keyframes circle2-ani {
+    0%   {background-color:violet; right: 0px;}
+  15%  {background-color:indigo;}
+  30% {background-color:blue;}
+  45%   {background-color:green;}
+  60%  {background-color:yellow;}
+  75% {background-color:orange;}
+  90% {background-color:red;}
+  100%   {background-color:violet; right: 1200px;}  
+  
+  }
+
+
+
+  .imgbox {
+    margin-top: 100px;
+    margin-left: 40px;
+  width: 200px;
+  height: 350px;
+}
+
+.imgbox2 {
+    margin-top: 200px;
+    margin-left: 950px;
+  width: 200px;
+  height: 350px;
+  border: black 5px;
+}
+
