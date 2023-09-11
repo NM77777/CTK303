@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.53 75.03">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #ed2024;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Pokeball">
+    <circle class="cls-4" cx="37.03" cy="37" r="36.5"/>
+  </g>
+  <g id="Whitebottom">
+    <path class="cls-2" d="m73.2,37.5H1.18s0,34.07,36.01,37.03c0,0,34.04-.05,36.01-37.03Z"/>
+  </g>
+  <g id="Redtop">
+    <path class="cls-3" d="m.53,38.03h73S73.53,3.5,37.03.5c0,0-34.5.05-36.5,37.53Z"/>
+  </g>
+  <g id="Line">
+    <circle class="cls-1" cx="37.03" cy="41" r="12.5"/>
+    <path class="cls-1" d="m1.57,33.3s49.48,3.94,70.83-1.3c0,0,1.62,11.77-.33,12.54s-51.78,8.53-69.7.62c0,0-2.37-10.96-.79-11.86Z"/>
+  </g>
+  <g id="Center">
+    <circle class="cls-5" cx="37.28" cy="40.75" r="8.75"/>
+    <circle class="cls-2" cx="37.21" cy="41.14" r="4.31"/>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+body{
+    background-image: url("pokecase.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1450px;
+}
+
+
+
+/* This code is for the Second Pokeball on the left side of Case.*/
+
+.pokeballw2 {
+  width: 300px;
+height: 300px;
+margin-top: 300px;
+margin-left: 300px;
+}
+
+
+/* This code is for the Frist Pokeball in the Center of Case.*/
+.pokeballw1 {
+      width: 300px;
+    height: 300px;
+    margin-left: 550px;
+    margin-top: 0px;
+  }
+  
+  .pokeballw1:hover{
+      animation: pokea 3s linear infinite;  
+  }
+  
+  
+  @keyframes pokea{
+      0%   { transform: rotate(360deg); top: 500px}
+      25% {top: 500px}
+      50% {top: 100px }
+    100% { transform: rotate(0deg); top: 100px} 
+  }
+  
+
+
+
+/* This code is for the Second Pokeball on the left side of Case.*/
+
+.pokeballw2 {
+      width: 300px;
+    height: 300px;
+  }
+
+  .pokeballw2:hover{
+    transform: scale(2.2);
+    animation: pokea2 3s linear infinite;  
+}
+
+@keyframes pokea2{
+
+}
+
+/*.pokeballw3 {
+  width: 300px;
+height: 300px;
+margin-right: 100px;
+}
+*/
