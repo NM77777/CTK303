@@ -4,14 +4,16 @@ h1{
 }
 body {  margin: 24px auto;
     width: 1200px;
-    border: 5px solid rgb(0, 26, 255);
+    border: 5px solid rgb(80, 80, 80
+    
+    );
     border-radius: 15px;
     padding: 24px;
-    background-color: #ff0000;
+    background-color: purple;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
-    color: blue;
-    box-shadow: 10px 10px 10px #f6e25b; /* x, y, blur, color */
+    color: rgb(80, 80, 80);
+    box-shadow: 10px 10px 10px #808080; /* x, y, blur, color */
 }
 
 .video{
