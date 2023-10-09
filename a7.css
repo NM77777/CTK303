@@ -4,20 +4,19 @@ h1{
 }
 body {  margin: 24px auto;
     width: 1200px;
-    border: 5px solid rgb(80, 80, 80
-    
-    );
+    border: 5px solid black;
     border-radius: 15px;
     padding: 24px;
-    background-color: purple;
+    background-color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
-    color: rgb(80, 80, 80);
-    box-shadow: 10px 10px 10px #808080; /* x, y, blur, color */
+    color: black;
+    box-shadow: 10px 10px 10px black; /* x, y, blur, color */
 }
 
 .video{
     padding-left: 310px;
     padding-top:10px;
     padding-bottom:10px;
+    
 }
